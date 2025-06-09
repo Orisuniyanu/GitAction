@@ -1,21 +1,23 @@
 {
   "name": "gitaction",
   "version": "1.0.0",
+  "description": "",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
     "start": "node app.js",
+    "test": "jest",
     "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
-    "supertest": "^7.1.1"
+    "eslint": "^VERSION",
+    "jest": "^VERSION",
+    "supertest": "^VERSION"
   }
 }
